@@ -1,4 +1,5 @@
-1. 
+1.
+[1](https://imgur.com/a/toZTHiB)
 ```
 ```avahi
 bin
@@ -44,10 +45,11 @@ tss
 usbmux
 uuidd```
 ```
-\-`grep -o '^[^:]*' passwd | sort `
+grep -o '^[^:]*' passwd | sort
 
 
 2.
+[2](https://imgur.com/a/ue1K5LP)
 ```
 255 reserved
 145 nsh
@@ -56,9 +58,10 @@ uuidd```
 142 rohc
 
 ```
-\-cat protocols | awk '{print $2, $1}' | sort -nr | head -n 5 
+cat protocols | awk '{print $2, $1}' | sort -nr | head -n 5 
 
 3.
+[3](https://imgur.com/a/4TLZZak)
 ```
 
 +-----------------------+
@@ -75,7 +78,7 @@ echo "$top_bottom_border"
 ```
 
 4.
-
+[4](https://imgur.com/a/CAtQnO8)
 ```
 balance
 bool
@@ -119,6 +122,7 @@ grep -vE '^\s*//|/\*|\*/' main.cpp | grep -o -E '\b[a-zA-Z_][a-zA-Z0-9_]*\b' | s
 ```
 
 5.
+[5](https://imgur.com/a/WgJCCkv)
 ```
 #!/bin/bash
 if [ -z "$1" ]; then
@@ -148,6 +152,7 @@ Output:
 ```
 
 6.
+[6](https://imgur.com/a/kVUXtW9)
 ```
 #!/bin/bash
 for file in *.{c,js,py}; do
@@ -174,7 +179,7 @@ There are no comms in first str in $file .
 ```
 
 7.
-
+[7](https://imgur.com/a/D0jiDkY)
 ```
 #!/bin/bash
 
@@ -193,6 +198,7 @@ Output:
 ```
 
 8.
+[8](https://imgur.com/a/cBbzl1g)
 ```
 #!/bin/bash
 if [ -z "$1" ]; then
@@ -215,7 +221,7 @@ Output:
 ```
 
 9.
-
+[9](https://imgur.com/a/d1wnKPd)
 ```
 #!/bin/bash
 
@@ -243,7 +249,7 @@ replaced in testt_1
 ```
 
 10.
-
+[10](https://imgur.com/a/RgCePHh)
 ```
 #!/bin/bash
 
